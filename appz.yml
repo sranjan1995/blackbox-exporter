@@ -15,12 +15,6 @@ deploy:
     replicas: 1
     port:
     - 9115
-    
-volumes:
-  - claim: prometheus-data
-    mount: /appz/data
-    name: data
-    size: 10Gi
-    
+
 properties:
-    revision : 5
+    revision : 6
